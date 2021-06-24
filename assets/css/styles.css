@@ -1,0 +1,182 @@
+/* *************************************************** reset */
+html, body,
+h1, h2, h3, h4, h5, h6,
+ul, li, 
+p, div, 
+form, fieldset, label, button, input, select, textarea,
+img { 
+	margin: 0; 
+	padding: 0; 
+	border: none; 
+	outline: none; 
+}
+a, 
+a:hover,
+a:active { 
+	text-decoration: none;
+	outline: none; 
+}
+ul li { 
+	list-style: none; 
+	line-height: 1.25em;
+}
+p { 
+	line-height: 1.25em;
+}
+strong {
+  	
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+  	line-height: 1.25em;
+  	text-rendering: optimizelegibility;
+  	margin: 0;
+}
+img {
+  	border: 0;
+  	-ms-interpolation-mode: bicubic;
+  	outline: 0;
+}
+/* *************************************************** */
+html { 
+	width: 100%;
+}
+body {
+	width: 100%;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.875rem;
+	background: #FFF;
+}
+.container {
+	margin: 0 auto;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+h1 {
+	
+}
+h2 {
+	text-transform: uppercase;
+	font-size: 1.125rem;
+}
+h3 {
+	
+}
+form  {
+    margin: 1.25rem auto 0;
+}
+form fieldset {
+	margin-top: 1rem;	
+}
+form label {
+	display: block;
+	margin-bottom: 0.5rem;
+}
+form input {
+    display:  block;
+    width: 100%;
+	padding: 0.5rem 0.625rem;
+    box-sizing: border-box;
+	background: transparent;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #333;
+	border: 1px solid #CCC;
+	resize: none;
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+form input.error {
+	border: 1px solid #fa9f9f;
+}
+form input::-moz-placeholder,
+form input::-webkit-input-placeholder { 
+	color: #999; 
+	opacity: 1 !important; 
+}
+form input.error::-moz-placeholder,
+form input.error::-webkit-input-placeholder { 
+	color: #fa9f9f;
+}
+form input.error::-webkit-input-placeholder { 
+	color: #848484; 
+	opacity: 1 !important; 
+}
+form input[type=submit] {
+	display: block;
+	width: 100%;
+	padding: 0.813rem 0;
+	cursor: pointer;
+	border: 0;
+	font-size: 0.875em;
+	color: #FFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: #333;
+	border: 1px solid #333;
+}
+/* *************************************************** section */
+section {
+	padding: 1.25rem 0;
+}
+/* */
+section .loader {
+	display: none;
+	height: 100px;
+	background: url(../img/loader.gif) no-repeat 50% 50%;
+	background-size: 16px 16px;
+}
+section .loader.active {
+	display: block;
+}
+/* */
+section .alert {
+	margin: 2.5rem 0;
+}
+section .alert p {
+	text-align:  center;
+	font-style: italic;
+	color: #666;
+}
+/* */
+section .result {
+	margin: 2.5rem 0;
+}
+section .result ul {
+	
+}
+section .result ul li {
+	padding: 1rem 0.75rem;
+	margin-bottom: 0.25rem;
+	background: #EFEFEF;
+}
+section .result ul li img {
+	width: 50px;
+	height: 50px;
+	border-radius: 0.5rem;
+	-moz-border-radius: 0.5rem;
+	-webkit-border-radius: 0.5rem;
+}
+section .result ul li h2 {
+	
+}
+section .result ul li h3 {
+	
+}
+section .result ul li p {
+	font-style: italic;
+	color: #666;
+}
